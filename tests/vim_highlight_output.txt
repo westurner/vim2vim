@@ -1,0 +1,694 @@
+
+
+SpecialKey     xxx term=bold ctermfg=237 ctermbg=233 guifg=#444444 guibg=#1c1c1c
+NonText        xxx term=bold ctermfg=240 ctermbg=232 guifg=#151515 guibg=#151515
+Directory      xxx term=bold ctermfg=7 guifg=#FFA0A0
+ErrorMsg       xxx term=standout cterm=bold ctermfg=7 ctermbg=1 gui=bold guifg=#ffffff guibg=#ff0000
+IncSearch      xxx term=reverse cterm=reverse gui=reverse
+Search         xxx term=reverse cterm=bold ctermfg=0 ctermbg=7 gui=bold guifg=white guibg=#742314
+MoreMsg        xxx term=bold ctermfg=2 guifg=#39d049
+ModeMsg        xxx term=bold ctermfg=3 guifg=#eecc18
+LineNr         xxx term=underline cterm=bold ctermfg=0 ctermbg=232 guifg=gray50 guibg=#080808
+Question       xxx term=standout ctermfg=2 guifg=#66d077
+StatusLine     xxx term=bold,reverse ctermfg=7 ctermbg=0 gui=italic guifg=#e8e8d3 guibg=#101010
+StatusLineNC   xxx term=reverse cterm=bold ctermfg=7 ctermbg=0 gui=italic guifg=gray30 guibg=#101010
+VertSplit      xxx term=reverse cterm=bold ctermfg=7 ctermbg=0 gui=italic guifg=#101010 guibg=#101010
+Title          xxx term=bold cterm=bold ctermfg=1 gui=bold guifg=#dd4452
+Visual         xxx term=reverse ctermfg=0 ctermbg=2 guibg=#540300
+VisualNOS      xxx term=bold,underline cterm=bold,underline gui=bold,underline
+WarningMsg     xxx term=standout cterm=bold ctermfg=3 gui=bold guifg=#ccae22
+WildMenu       xxx term=standout cterm=bold ctermfg=1 ctermbg=0 gui=bold guibg=#540300
+Folded         xxx term=standout ctermfg=145 ctermbg=236 gui=italic guifg=gray90 guibg=black
+FoldColumn     xxx cterm=bold ctermfg=7 ctermbg=0 gui=bold guifg=#c8bcb9 guibg=#171717
+DiffAdd        xxx term=bold ctermbg=22 guibg=#454d4d
+DiffChange     xxx term=bold ctermbg=17 guibg=#38492b
+DiffDelete     xxx term=bold ctermfg=16 ctermbg=52 guifg=#443737 guibg=#443737
+DiffText       xxx term=reverse ctermbg=19 guibg=#4c5f48
+SignColumn     xxx cterm=bold ctermfg=7 ctermbg=0 gui=bold guifg=#c8bcb9 guibg=#171717
+Conceal        xxx ctermfg=7 ctermbg=0 guifg=LightGrey guibg=DarkGrey
+SpellBad       xxx term=reverse cterm=underline ctermbg=88 gui=underline guibg=#902020 guisp=Red
+SpellCap       xxx term=reverse cterm=underline ctermbg=20 gui=underline guibg=#0000df guisp=Blue
+SpellRare      xxx term=reverse cterm=underline ctermbg=53 gui=underline guibg=#540063 guisp=Magenta
+SpellLocal     xxx term=underline cterm=underline ctermbg=23 gui=underline guibg=#2D7067 guisp=Cyan
+Pmenu          xxx ctermfg=231 ctermbg=240 guifg=#ffffff guibg=#606060
+PmenuSel       xxx ctermfg=232 ctermbg=254 guifg=#101010 guibg=#eeeeee
+PmenuSbar      xxx ctermbg=7 guibg=Grey
+PmenuThumb     xxx cterm=reverse gui=reverse
+TabLine        xxx term=underline ctermfg=7 ctermbg=0 gui=italic guifg=white guibg=black
+TabLineSel     xxx term=bold cterm=bold ctermfg=1 ctermbg=0 gui=bold,italic guifg=white guibg=black
+TabLineFill    xxx term=reverse ctermfg=0 gui=reverse guifg=#9098a0
+CursorColumn   xxx term=reverse ctermbg=0 guibg=gray20
+CursorLine     xxx term=underline ctermbg=0 guibg=gray20
+ColorColumn    xxx term=reverse ctermbg=0 guibg=gray20
+Cursor         xxx cterm=reverse ctermbg=153 gui=reverse guibg=#b0d0f0
+lCursor        xxx guifg=bg guibg=fg
+MatchParen     xxx term=reverse cterm=bold ctermfg=231 ctermbg=1 gui=bold guifg=#ffffff guibg=#a42314
+Normal         xxx ctermfg=7 ctermbg=232 guifg=#e8e8d3 guibg=#040404
+Comment        xxx term=bold cterm=bold ctermfg=244 gui=bold guifg=#888888
+Constant       xxx term=underline ctermfg=167 guifg=#cf6a4c
+Special        xxx term=bold ctermfg=107 guifg=#799d6a
+Identifier     xxx term=underline ctermfg=183 guifg=#c6b6ee
+Statement      xxx term=bold ctermfg=103 guifg=#8197bf
+PreProc        xxx term=underline ctermfg=110 guifg=#8fbfdc
+Type           xxx term=underline ctermfg=215 guifg=#ffb964
+Underlined     xxx term=underline cterm=bold,underline ctermfg=4 gui=underline guifg=#80a0ff
+Ignore         xxx ctermfg=0 guifg=bg
+Error          xxx term=reverse cterm=bold ctermfg=7 ctermbg=1 gui=bold guifg=white guibg=#a42314
+Todo           xxx term=standout cterm=bold ctermfg=1 ctermbg=0 gui=bold guifg=white guibg=#a42314
+String         xxx ctermfg=107 guifg=#99ad6a
+Character      xxx links to Constant
+Number         xxx links to Constant
+Boolean        xxx links to Constant
+Float          xxx links to Number
+Function       xxx ctermfg=222 guifg=#fad07a
+Conditional    xxx links to Statement
+Repeat         xxx links to Statement
+Label          xxx links to Statement
+Operator       xxx links to Normal
+Keyword        xxx links to Statement
+Exception      xxx links to Statement
+Include        xxx links to PreProc
+Define         xxx links to PreProc
+Macro          xxx links to PreProc
+PreCondit      xxx links to PreProc
+StorageClass   xxx ctermfg=179 guifg=#c59f6f
+Structure      xxx ctermfg=110 guifg=#8fbfdc
+Typedef        xxx links to Type
+Tag            xxx links to Special
+SpecialChar    xxx links to Special
+Delimiter      xxx ctermfg=66 guifg=#668799
+SpecialComment xxx links to Special
+Debug          xxx links to Special
+StringDelimiter xxx ctermfg=58 guifg=#556633
+diffRemoved    xxx links to Constant
+diffAdded      xxx links to String
+phpFunctions   xxx links to Function
+phpSuperglobal xxx links to Identifier
+phpQuoteSingle xxx links to StringDelimiter
+phpQuoteDouble xxx links to StringDelimiter
+phpBoolean     xxx links to Constant
+phpNull        xxx links to Constant
+phpArrayPair   xxx links to Operator
+rubySharpBang  xxx links to Comment
+rubyClass      xxx ctermfg=30 guifg=#447799
+rubyIdentifier xxx ctermfg=183 guifg=#c6b6fe
+rubyConstant   xxx links to Type
+rubyFunction   xxx links to Function
+rubyInstanceVariable xxx ctermfg=183 guifg=#c6b6fe
+rubySymbol     xxx ctermfg=104 guifg=#7697d6
+rubyGlobalVariable xxx links to rubyInstanceVariable
+rubyModule     xxx links to rubyClass
+rubyControl    xxx ctermfg=104 guifg=#7597c6
+rubyString     xxx links to String
+rubyStringDelimiter xxx links to StringDelimiter
+rubyInterpolationDelimiter xxx links to Identifier
+rubyRegexpDelimiter xxx ctermfg=53 guifg=#540063
+rubyRegexp     xxx ctermfg=162 guifg=#dd0093
+rubyRegexpSpecial xxx ctermfg=126 guifg=#a40073
+rubyPredefinedIdentifier xxx ctermfg=168 guifg=#de5577
+javaScriptValue xxx links to Constant
+javaScriptRegexpString xxx links to rubyRegexp
+coffeeRegExp   xxx links to javaScriptRegexpString
+cOperator      xxx links to Constant
+objcClass      xxx links to Type
+cocoaClass     xxx links to objcClass
+objcSubclass   xxx links to objcClass
+objcSuperclass xxx links to objcClass
+objcDirective  xxx links to rubyClass
+cocoaFunction  xxx links to Function
+objcMethodName xxx links to Identifier
+objcMethodArg  xxx links to Normal
+objcMessageName xxx links to Identifier
+TagListFileName xxx links to Directory
+PreciseJumpTarget xxx ctermfg=155 ctermbg=22 guifg=#B9ED67 guibg=#405026
+HorizMark      xxx ctermbg=2 guibg=#2a4a2a
+VertMark       xxx ctermbg=2 guibg=#2a2a2a
+ExtraWhitespace xxx cterm=bold ctermfg=1 ctermbg=1 guifg=#540300 guibg=#540300
+qfFilename     xxx guifg=gray90 guibg=#540300
+MyTagListFileName xxx guifg=#dddddd guibg=#000000
+MyTagListTagScope xxx guifg=#dddddd guibg=#222222
+StatColor      xxx ctermfg=0 ctermbg=10 guifg=black guibg=#95e454
+GPGWarning     xxx links to WarningMsg
+GPGError       xxx links to ErrorMsg
+GPGHighlightUnknownRecipient xxx links to ErrorMsg
+SyntasticError xxx links to SpellBad
+SyntasticWarning xxx links to SpellCap
+EasyMotionTargetDefault xxx cterm=bold ctermfg=1 gui=bold guifg=#ff0000
+EasyMotionTarget xxx links to EasyMotionTargetDefault
+EasyMotionShadeDefault xxx ctermfg=0 guifg=#585858
+EasyMotionShade xxx links to EasyMotionShadeDefault
+airline_a_to_airline_b xxx guifg=#e8e8d3 guibg=#540300
+airline_b_to_airline_c xxx guifg=#540300 guibg=gray20
+airline_c_to_airline_x xxx guifg=gray20 guibg=gray20
+airline_x_to_airline_y xxx guifg=#540300 guibg=gray20
+airline_y_to_airline_z xxx guifg=#e8e8d3 guibg=#540300
+airline_z_to_airline_warning xxx guifg=#df5f00 guibg=#e8e8d3
+airline_warning_inactive xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_x_inactive xxx guifg=#151515 guibg=gray20
+airline_y_inactive xxx guifg=#151515 guibg=gray20
+airline_z_inactive xxx guifg=#151515 guibg=gray20
+airline_a_inactive xxx guifg=#151515 guibg=gray20
+airline_b_inactive xxx guifg=#151515 guibg=gray20
+airline_c_inactive xxx guifg=#151515 guibg=gray20
+airline_file_inactive xxx guifg=#cf6a4c guibg=gray20
+airline_x_to_airline_y_inactive xxx guifg=gray20 guibg=gray20
+airline_z_to_airline_warning_inactive xxx guifg=#df5f00 guibg=gray20
+airline_c_to_airline_x_inactive xxx guifg=gray20 guibg=gray20
+airline_a_to_airline_b_inactive xxx guifg=gray20 guibg=gray20
+airline_y_to_airline_z_inactive xxx guifg=gray20 guibg=gray20
+airline_b_to_airline_c_inactive xxx guifg=gray20 guibg=gray20
+airline_warning xxx ctermfg=232 ctermbg=166 guifg=#000000 guibg=#df5f00
+airline_x      xxx guifg=#e8e8d3 guibg=gray20
+airline_y      xxx guifg=#e8e8d3 guibg=#540300
+airline_z      xxx term=bold cterm=bold gui=bold guifg=#4c5f48 guibg=#e8e8d3
+airline_a      xxx term=bold cterm=bold gui=bold guifg=#4c5f48 guibg=#e8e8d3
+airline_b      xxx guifg=#e8e8d3 guibg=#540300
+airline_c      xxx guifg=#e8e8d3 guibg=gray20
+airline_file   xxx guifg=#cf6a4c guibg=gray20
+CtrlPwhite     xxx term=bold cterm=bold gui=bold guifg=#040404 guibg=#99ad6a
+CtrlPlight     xxx guifg=#99ad6a guibg=#040404
+CtrlPdark      xxx guifg=#e8e8d3 guibg=gray20
+CtrlParrow1    xxx guifg=#040404 guibg=#99ad6a
+CtrlParrow2    xxx guifg=#99ad6a guibg=#040404
+CtrlParrow3    xxx guifg=#040404 guibg=gray20
+airline_tab    xxx guifg=#e8e8d3 guibg=#540300
+airline_tabsel xxx term=bold cterm=bold gui=bold guifg=#4c5f48 guibg=#e8e8d3
+airline_tabtype xxx term=bold cterm=bold gui=bold guifg=#040404 guibg=#cf6a4c
+airline_tabfill xxx guifg=#e8e8d3 guibg=gray20
+airline_tabmod xxx term=bold cterm=bold gui=bold guifg=#040404 guibg=#99ad6a
+airline_tabsel_to_airline_tabfill xxx guifg=#e8e8d3 guibg=gray20
+airline_tabfill_to_airline_tabtype xxx guifg=#cf6a4c guibg=gray20
+airline_tab_to_airline_tabsel xxx guifg=#540300 guibg=#e8e8d3
+Info           xxx cleared
+pythonStatement xxx links to Statement
+pythonFunction xxx links to Function
+pythonVars     xxx cleared
+pythonParameters xxx links to Normal
+pythonExtraOperator xxx links to Operator
+pythonParam    xxx links to Normal
+pythonBuiltinObj xxx links to Structure
+pythonBuiltinType xxx links to Type
+pythonConstant xxx cleared
+pythonNumber   xxx links to Number
+pythonString   xxx links to String
+pythonBrackets xxx links to Normal
+pythonClass    xxx links to Type
+pythonClassVars xxx cleared
+pythonClassParameters xxx links to Normal
+pythonBuiltin  xxx links to Function
+pythonExtraOperatorpythonStatement xxx cleared
+pythonRepeat   xxx links to Repeat
+pythonConditional xxx links to Conditional
+pythonInclude  xxx links to Include
+pythonException xxx links to Exception
+pythonOperator xxx links to Operator
+pythonExtraPseudoOperator xxx links to Operator
+pythonSelf     xxx links to Identifier
+pythonDottedName xxx links to Function
+pythonDecorator xxx links to Define
+pythonDot      xxx links to Normal
+pythonTodo     xxx links to Todo
+pythonComment  xxx links to Comment
+pythonRun      xxx links to Special
+pythonCoding   xxx links to Special
+pythonError    xxx links to Error
+pythonIndentError xxx links to Error
+pythonSpaceError xxx links to Error
+pythonEscape   xxx links to Special
+pythonEscapeError xxx links to Error
+pythonDocTest2 xxx links to Special
+pythonDocTest  xxx links to Special
+pythonUniEscape xxx links to Special
+pythonUniEscapeError xxx links to Error
+pythonUniString xxx links to String
+pythonRawEscape xxx cleared
+pythonRawString xxx links to String
+pythonUniRawEscape xxx links to Special
+pythonUniRawEscapeError xxx links to Error
+pythonUniRawString xxx links to String
+pythonStrFormatting xxx links to Special
+pythonStrFormat xxx links to Special
+pythonStrTemplate xxx links to Special
+pythonHexError xxx links to Error
+pythonHexNumber xxx links to Number
+pythonOctNumber xxx links to Number
+pythonBinNumber xxx links to Number
+pythonFloat    xxx links to Float
+pythonOctError xxx links to Error
+pythonBinError xxx links to Error
+pythonBuiltinFunc xxx links to Function
+pythonExClass  xxx links to Structure
+vimTodo        xxx links to Todo
+vimCommand     xxx links to Statement
+vimOption      xxx links to PreProc
+vimErrSetting  xxx links to vimError
+vimAutoEvent   xxx links to Type
+vimGroup       xxx links to Type
+vimHLGroup     xxx links to vimGroup
+vimFuncName    xxx links to Function
+vimNumber      xxx links to Number
+vimAddress     xxx links to vimMark
+vimAutoCmd     xxx links to vimCommand
+vimExtCmd      xxx cleared
+vimFilter      xxx cleared
+vimLet         xxx links to vimCommand
+vimMap         xxx links to vimCommand
+vimMark        xxx links to Number
+vimSet         xxx cleared
+vimSyntax      xxx links to vimCommand
+vimUserCmd     xxx cleared
+vimCmdSep      xxx cleared
+vimIsCommand   xxx cleared
+vimVar         xxx links to Identifier
+vimFBVar       xxx cleared
+vimInsert      xxx links to vimString
+vimBehaveModel xxx links to vimBehave
+vimBehaveError xxx links to vimError
+vimBehave      xxx links to vimCommand
+vimFTCmd       xxx links to vimCommand
+vimFTOption    xxx links to vimSynType
+vimFTError     xxx links to vimError
+vimFiletype    xxx cleared
+vimExecute     xxx cleared
+vimNotFunc     xxx links to vimCommand
+vimFunction    xxx cleared
+vimFunctionError xxx links to vimError
+vimLineComment xxx links to vimComment
+vimSpecFile    xxx links to Identifier
+vimOper        xxx links to Operator
+vimOperParen   xxx cleared
+vimComment     xxx links to Comment
+vimString      xxx links to String
+vimSubst       xxx links to vimCommand
+vimRegister    xxx links to SpecialChar
+vimCmplxRepeat xxx links to SpecialChar
+vimRegion      xxx cleared
+vimSynLine     xxx cleared
+vimNotation    xxx links to Special
+vimCtrlChar    xxx links to SpecialChar
+vimFuncVar     xxx links to Identifier
+vimContinue    xxx links to Special
+vimAugroupKey  xxx links to vimCommand
+vimAugroup     xxx cleared
+vimAugroupError xxx cleared
+vimFunc        xxx links to vimError
+vimParenSep    xxx links to Delimiter
+vimSep         xxx links to Delimiter
+vimOperError   xxx links to Error
+vimFuncKey     xxx links to vimCommand
+vimFuncSID     xxx links to Special
+vimAbb         xxx links to vimCommand
+vimEcho        xxx cleared
+vimEchoHL      xxx links to vimCommand
+vimIf          xxx cleared
+vimHighlight   xxx links to vimCommand
+vimNorm        xxx links to vimCommand
+vimUserCommand xxx links to vimCommand
+vimFuncBody    xxx cleared
+vimFuncBlank   xxx cleared
+vimPattern     xxx links to Type
+vimSpecFileMod xxx links to vimSpecFile
+vimEscapeBrace xxx cleared
+vimSetEqual    xxx cleared
+vimSetString   xxx links to vimString
+vimSubstRep    xxx cleared
+vimSubstRange  xxx cleared
+vimUserAttrb   xxx links to vimSpecial
+vimUserAttrbKey xxx links to vimOption
+vimUserAttrbCmplt xxx links to vimSpecial
+vimUserCmdError xxx links to Error
+vimUserAttrbCmpltFunc xxx links to Special
+vimCommentString xxx links to vimString
+vimEnvvar      xxx links to PreProc
+vimPatSepErr   xxx links to vimPatSep
+vimPatSep      xxx links to SpecialChar
+vimPatSepZ     xxx links to vimPatSep
+vimPatSepZone  xxx links to vimString
+vimPatSepR     xxx links to vimPatSep
+vimPatRegion   xxx cleared
+vimNotPatSep   xxx links to vimString
+vimStringCont  xxx links to vimString
+vimSubstTwoBS  xxx links to vimString
+vimSubstSubstr xxx links to SpecialChar
+vimCollection  xxx cleared
+vimSubstPat    xxx cleared
+vimSubst1      xxx links to vimSubst
+vimSubstDelim  xxx links to Delimiter
+vimSubstRep4   xxx cleared
+vimSubstFlagErr xxx links to vimError
+vimCollClass   xxx cleared
+vimCollClassErr xxx links to vimError
+vimSubstFlags  xxx links to Special
+vimMarkNumber  xxx links to vimNumber
+vimPlainMark   xxx links to vimMark
+vimPlainRegister xxx links to vimRegister
+vimSetMod      xxx links to vimOption
+vimSetSep      xxx links to Statement
+vimMapMod      xxx links to vimBracket
+vimMapLhs      xxx cleared
+vimAutoCmdSpace xxx cleared
+vimAutoEventList xxx cleared
+vimAutoCmdSfxList xxx cleared
+vimEchoHLNone  xxx links to vimGroup
+vimMapBang     xxx links to vimCommand
+vimUnmap       xxx links to vimMap
+vimMapRhs      xxx cleared
+vimMapModKey   xxx links to vimFuncSID
+vimMapModErr   xxx links to vimError
+vimMapRhsExtend xxx cleared
+vimMenuBang    xxx cleared
+vimMenuPriority xxx cleared
+vimMenuName    xxx links to PreProc
+vimMenuMod     xxx links to vimMapMod
+vimMenuNameMore xxx links to vimMenuName
+vimMenuMap     xxx cleared
+vimMenuRhs     xxx cleared
+vimBracket     xxx links to Delimiter
+vimUserFunc    xxx links to Normal
+vimElseIfErr   xxx links to Error
+vimBufnrWarn   xxx links to vimWarn
+vimNormCmds    xxx cleared
+vimGroupSpecial xxx links to Special
+vimGroupList   xxx cleared
+vimSynError    xxx links to Error
+vimSynContains xxx links to vimSynOption
+vimSynKeyContainedin xxx links to vimSynContains
+vimSynNextgroup xxx links to vimSynOption
+vimSynType     xxx links to vimSpecial
+vimAuSyntax    xxx cleared
+vimSynCase     xxx links to Type
+vimSynCaseError xxx links to vimError
+vimClusterName xxx cleared
+vimGroupName   xxx links to vimGroup
+vimGroupAdd    xxx links to vimSynOption
+vimGroupRem    xxx links to vimSynOption
+vimSynKeyOpt   xxx links to vimSynOption
+vimSynKeyRegion xxx cleared
+vimMtchComment xxx links to vimComment
+vimSynMtchOpt  xxx links to vimSynOption
+vimSynRegPat   xxx links to vimString
+vimSynMatchRegion xxx cleared
+VimSynMtchCchar xxx cleared
+vimSynMtchGroup xxx cleared
+vimSynPatRange xxx links to vimString
+vimSynNotPatRange xxx links to vimSynRegPat
+vimSynRegOpt   xxx links to vimSynOption
+vimSynReg      xxx links to Type
+vimSynMtchGrp  xxx links to vimSynOption
+vimSynRegion   xxx cleared
+vimSynPatMod   xxx cleared
+vimSyncC       xxx links to Type
+vimSyncLines   xxx cleared
+vimSyncMatch   xxx cleared
+vimSyncError   xxx links to Error
+vimSyncLinebreak xxx cleared
+vimSyncLinecont xxx cleared
+vimSyncRegion  xxx cleared
+vimSyncGroupName xxx links to vimGroupName
+vimSyncKey     xxx links to Type
+vimSyncGroup   xxx links to vimGroupName
+vimSyncNone    xxx links to Type
+vimHiLink      xxx cleared
+vimHiClear     xxx links to vimHighlight
+vimHiKeyList   xxx cleared
+vimHiCtermError xxx links to vimError
+vimHiBang      xxx cleared
+vimHiGroup     xxx links to vimGroupName
+vimHiAttrib    xxx links to PreProc
+vimFgBgAttrib  xxx links to vimHiAttrib
+vimHiAttribList xxx links to vimError
+vimHiCtermColor xxx cleared
+vimHiFontname  xxx cleared
+vimHiGuiFontname xxx cleared
+vimHiGuiRgb    xxx links to vimNumber
+vimHiTerm      xxx links to Type
+vimHiCTerm     xxx links to vimHiTerm
+vimHiStartStop xxx links to vimHiTerm
+vimHiCtermFgBg xxx links to vimHiTerm
+vimHiGui       xxx links to vimHiTerm
+vimHiGuiFont   xxx links to vimHiTerm
+vimHiGuiFgBg   xxx links to vimHiTerm
+vimHiKeyError  xxx links to vimError
+vimHiTermcap   xxx cleared
+vimCommentTitle xxx links to PreProc
+vimCommentTitleLeader xxx cleared
+vimSearchDelim xxx links to Statement
+vimSearch      xxx links to vimString
+vimGlobal      xxx cleared
+luaTodo        xxx links to Todo
+luaComment     xxx links to Comment
+luaInnerComment xxx cleared
+luaParenError  xxx links to Error
+luaParen       xxx cleared
+luaError       xxx links to Error
+luaFunction    xxx links to Function
+luaFunctionBlock xxx cleared
+luaCondElse    xxx links to Conditional
+luaCondEnd     xxx cleared
+luaCond        xxx links to Conditional
+luaCondElseif  xxx cleared
+luaCondStart   xxx cleared
+luaStatement   xxx links to Statement
+luaBlock       xxx cleared
+luaRepeat      xxx links to Repeat
+luaRepeatBlock xxx cleared
+luaWhile       xxx cleared
+luaFor         xxx links to Repeat
+luaLabel       xxx links to Label
+luaOperator    xxx links to Operator
+luaConstant    xxx links to Constant
+luaString2     xxx links to String
+luaSpecial     xxx links to SpecialChar
+luaString      xxx links to String
+luaNumber      xxx links to Number
+luaTable       xxx links to Structure
+luaTableBlock  xxx cleared
+luaFunc        xxx links to Identifier
+vimScriptDelim xxx links to Comment
+vimLuaRegion   xxx cleared
+perlTodo       xxx links to Todo
+perlPOD        xxx links to perlComment
+perlGenericBlock xxx cleared
+perlConditional xxx links to Conditional
+perlElseIfError xxx links to Error
+perlRepeat     xxx links to Repeat
+perlOperator   xxx links to Operator
+perlControl    xxx links to PreProc
+perlStatementStorage xxx links to perlStatement
+perlStatementControl xxx links to perlStatement
+perlStatementScalar xxx links to perlStatement
+perlStatementRegexp xxx links to perlStatement
+perlStatementNumeric xxx links to perlStatement
+perlStatementList xxx links to perlStatement
+perlStatementHash xxx links to perlStatement
+perlStatementIOfunc xxx links to perlStatement
+perlFiledescStatementNocomma xxx cleared
+perlStatementFiledesc xxx links to perlStatement
+perlFiledescStatementComma xxx cleared
+perlStatementVector xxx links to perlStatement
+perlStatementFiles xxx links to perlStatement
+perlStatementFlow xxx links to perlStatement
+perlStatementInclude xxx links to perlStatement
+perlStatementProc xxx links to perlStatement
+perlStatementSocket xxx links to perlStatement
+perlStatementIPC xxx links to perlStatement
+perlStatementNetwork xxx links to perlStatement
+perlStatementPword xxx links to perlStatement
+perlStatementTime xxx links to perlStatement
+perlStatementMisc xxx links to perlStatement
+perlStatementIndirObj xxx links to perlStatement
+perlStatementIndirObjWrap xxx cleared
+perlLabel      xxx links to Label
+perlVarPlain   xxx links to perlIdentifier
+perlVarNotInMatches xxx links to perlIdentifier
+perlVarSlash   xxx links to perlIdentifier
+perlPackageRef xxx links to perlType
+perlVarMember  xxx cleared
+perlVarSimpleMember xxx links to perlIdentifier
+perlMethod     xxx links to perlIdentifier
+perlVarPlain2  xxx links to perlIdentifier
+perlFunctionName xxx links to perlIdentifier
+perlVarBlock   xxx cleared
+perlVarBlock2  xxx cleared
+perlShellCommand xxx links to perlString
+perlFloat      xxx links to Float
+perlNumber     xxx links to Number
+perlStringUnexpanded xxx links to perlString
+perlString     xxx links to String
+perlQQ         xxx links to perlString
+perlArrow      xxx links to perlIdentifier
+perlVarSimpleMemberName xxx links to perlString
+perlPackageConst xxx cleared
+perlFiledescRead xxx links to perlIdentifier
+perlFiledescStatement xxx links to perlIdentifier
+perlSpecialString xxx links to perlSpecial
+NONE           xxx cleared
+perlSpecialStringU2 xxx cleared
+perlSpecialStringU xxx links to perlSpecial
+perlSpecialMatch xxx links to perlSpecial
+perlNotEmptyLine xxx links to Error
+perlMatchStartEnd xxx links to perlStatement
+perlVStringV   xxx links to perlStringStartEnd
+perlParensSQ   xxx cleared
+perlBracketsSQ xxx cleared
+perlBracesSQ   xxx cleared
+perlAnglesSQ   xxx cleared
+perlParensDQ   xxx cleared
+perlBracketsDQ xxx cleared
+perlBracesDQ   xxx cleared
+perlAnglesDQ   xxx cleared
+perlMatch      xxx links to perlString
+perlComment    xxx links to Comment
+perlSubstitutionGQQ xxx links to perlString
+perlSubstitutionSQ xxx links to perlString
+perlTranslationGQ xxx links to perlString
+perlStringStartEnd xxx links to perlString
+perlHereDoc    xxx links to perlString
+perlAutoload   xxx cleared
+perlStatementPackage xxx links to perlStatement
+perlPackageDecl xxx links to perlType
+perlSubError   xxx links to Error
+perlSubAttributesCont xxx links to perlSubAttributes
+perlSubAttributes xxx links to PreProc
+perlSubPrototypeError xxx links to Error
+perlSubPrototype xxx links to Type
+perlSubName    xxx links to Function
+perlFunction   xxx links to Keyword
+perlFunctionPRef xxx links to perlType
+perlSharpBang  xxx links to PreProc
+perlFormatName xxx links to perlIdentifier
+perlFormatField xxx links to perlString
+perlFormat     xxx cleared
+perlDATA       xxx links to perlComment
+perlInclude    xxx links to Include
+perlSpecial    xxx links to Special
+perlCharacter  xxx links to Character
+perlType       xxx links to Type
+perlIdentifier xxx links to Identifier
+perlStatement  xxx links to Statement
+perlList       xxx links to perlStatement
+perlMisc       xxx links to perlStatement
+perlStorageClass xxx links to perlType
+perlSpecialAscii xxx links to perlSpecial
+perlSpecialDollar xxx links to perlSpecial
+perlSync       xxx cleared
+perlSyncPOD    xxx cleared
+vimPerlRegion  xxx cleared
+rubyConditional xxx links to Conditional
+rubyExceptional xxx links to rubyConditional
+rubyMethodExceptional xxx links to rubyDefine
+rubyTodo       xxx links to Todo
+rubyStringEscape xxx links to Special
+rubyQuoteEscape xxx links to rubyStringEscape
+rubyInterpolation xxx cleared
+rubyClassVariable xxx links to rubyIdentifier
+rubyPredefinedVariable xxx links to rubyPredefinedIdentifier
+rubyInvalidVariable xxx links to Error
+rubyNoInterpolation xxx links to rubyString
+rubyDelimEscape xxx cleared
+rubyNestedParentheses xxx cleared
+rubyNestedCurlyBraces xxx cleared
+rubyNestedAngleBrackets xxx cleared
+rubyNestedSquareBrackets xxx cleared
+rubyRegexpComment xxx links to Comment
+rubyRegexpParens xxx cleared
+rubyRegexpCharClass xxx links to rubyRegexpSpecial
+rubyRegexpEscape xxx links to rubyRegexpSpecial
+rubyRegexpBrackets xxx cleared
+rubyRegexpQuantifier xxx links to rubyRegexpSpecial
+rubyRegexpAnchor xxx links to rubyRegexpSpecial
+rubyRegexpDot  xxx links to rubyRegexpCharClass
+rubyASCIICode  xxx links to Character
+rubyInteger    xxx links to Number
+rubyFloat      xxx links to Float
+rubyLocalVariableOrMethod xxx cleared
+rubyBlockArgument xxx cleared
+rubyBlockParameter xxx links to rubyIdentifier
+rubyBlockParameterList xxx cleared
+rubyPredefinedConstant xxx links to rubyPredefinedIdentifier
+rubySymbolDelimiter xxx links to rubyStringDelimiter
+rubyHeredocStart xxx cleared
+rubyAliasDeclaration2 xxx cleared
+rubyAliasDeclaration xxx cleared
+rubyBoolean    xxx links to Boolean
+rubyPseudoVariable xxx links to Constant
+rubyMethodDeclaration xxx cleared
+rubyOperator   xxx links to Operator
+rubyClassDeclaration xxx cleared
+rubyModuleDeclaration xxx cleared
+rubyKeyword    xxx links to Keyword
+rubyBeginEnd   xxx links to Statement
+rubyDefine     xxx links to Define
+rubyMethodBlock xxx cleared
+rubyBlock      xxx cleared
+rubyConditionalModifier xxx links to rubyConditional
+rubyRepeatModifier xxx links to rubyRepeat
+rubyDoBlock    xxx cleared
+rubyCurlyBlock xxx cleared
+rubyArrayDelimiter xxx cleared
+rubyArrayLiteral xxx cleared
+rubyBlockExpression xxx cleared
+rubyCaseExpression xxx cleared
+rubyConditionalExpression xxx cleared
+rubyRepeat     xxx links to Repeat
+rubyOptionalDo xxx links to rubyRepeat
+rubyOptionalDoLine xxx cleared
+rubyRepeatExpression xxx cleared
+rubyAccess     xxx links to Statement
+rubyAttribute  xxx links to Statement
+rubyEval       xxx links to Statement
+rubyException  xxx links to Exception
+rubyInclude    xxx links to Include
+rubySpaceError xxx links to rubyError
+rubyComment    xxx links to Comment
+rubyMultilineComment xxx cleared
+rubyDocumentation xxx links to Comment
+rubyKeywordAsMethod xxx cleared
+rubyDataDirective xxx links to Delimiter
+rubyData       xxx links to Comment
+rubyPseudoOperator xxx links to rubyOperator
+rubyError      xxx links to Error
+vimRubyRegion  xxx cleared
+pythonExceptions xxx links to Structure
+pythonDoctestValue xxx links to Define
+pythonSync     xxx cleared
+vimPythonRegion xxx cleared
+vimEmbedError  xxx links to vimError
+vimAugroupSyncA xxx cleared
+vimAuHighlight xxx links to vimHighlight
+vimError       xxx links to Error
+vimKeyCodeError xxx links to vimError
+vimWarn        xxx links to WarningMsg
+vimAutoCmdOpt  xxx links to vimOption
+vimAutoSet     xxx links to vimCommand
+vimCondHL      xxx links to vimCommand
+vimElseif      xxx links to vimCondHL
+vimSynOption   xxx links to Special
+vimKeyCode     xxx links to vimSpecFile
+vimSpecial     xxx links to Type
+vimFold        xxx links to Folded
+vimHLMod       xxx links to PreProc
+vimKeyword     xxx links to Statement
+vimStatement   xxx links to Statement
+airline_tabfill_to_airline_tab xxx guifg=#540300 guibg=gray20
+airline_tab_to_airline_tabtype xxx guifg=#cf6a4c guibg=#540300
+bufExplorerSortBy xxx links to String
+bufExplorerMapping xxx links to NonText
+bufExplorerTitle xxx links to NonText
+bufExplorerSortType xxx links to bufExplorerSortBy
+bufExplorerToggleSplit xxx links to bufExplorerSplit
+bufExplorerToggleOpen xxx links to bufExplorerOpenIn
+bufExplorerHelp xxx links to Special
+bufExplorerOpenIn xxx links to Identifier
+bufExplorerSplit xxx links to NonText
+bufExplorerBufNbr xxx links to Number
+bufExplorerModBuf xxx links to Exception
+bufExplorerLockedBuf xxx links to Special
+bufExplorerHidBuf xxx links to Constant
+bufExplorerActBuf xxx links to Identifier
+bufExplorerCurBuf xxx links to Type
+bufExplorerAltBuf xxx links to String
+bufExplorerUnlBuf xxx links to Comment
+airline_tabsel_to_airline_tab xxx guifg=#e8e8d3 guibg=#540300
+airline_tab_to_airline_tabfill xxx guifg=#540300 guibg=gray20
+>              xxx cleared
