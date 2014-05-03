@@ -20,7 +20,7 @@ Utility for working with vim colorschemes.
 ``vim2vim`` transforms output from ``:highlight``,
 to a flat, plain ViM colorscheme.
 
-Many ViM colorschemes and extensions utilize various functions for
+Many ViM colorschemes and plugins utilize various functions for
 configuring syntax highlighting. This utility works with ViM's
 final, configured state.
 
@@ -34,7 +34,7 @@ Usage
 
 2. (vim2vim) Transform vim ``:highlight`` colors to vim color syntax::
 
-    python ./vim2vim/vim2vim.py | sort > my_colorscheme.vim
+    python ./vim2vim/vim2vim.py ./vim_highlight_output.txt | sort > my_colorscheme.vim
 
     vim2vim ./vim_highlight_output.txt | sort > my_colorscheme.vim
     
